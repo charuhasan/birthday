@@ -17,7 +17,7 @@ steps:
 
 - script: |
     npm install
-    npm run server
+    npm run server-node
   displayName: 'npm install and server'
 - task: UseNode@1
   inputs:
