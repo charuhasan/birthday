@@ -17,5 +17,8 @@ steps:
 
 - script: |
     npm install
-    npm run build
-  displayName: 'npm install and build'
+    npm run server
+  displayName: 'npm install and server'
+- task: UseNode@1
+  inputs:
+    checkLatest: true
